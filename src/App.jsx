@@ -266,7 +266,7 @@ function App() {
               <p className="text-[#E0D1CA] tracking-[0.2em] text-xs sm:text-sm mb-2 font-light">
                 {selectedArt.year.split("-")[0]}
               </p>
-              <h3 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-wide mb-4 sm:mb-8 uppercase leading-tight">
+              <h3 className="text-3xl sm:text-5xl lg:text-6xl text-center font-extrabold tracking-wide mb-4 sm:mb-8 uppercase leading-tight">
                 {selectedArt.title}
               </h3>
               <div className="flex flex-wrap gap-2 mb-6 sm:mb-10">
