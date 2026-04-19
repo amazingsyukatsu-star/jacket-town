@@ -227,7 +227,7 @@ function App() {
           ))}
         </Swiper>
         <div className="w-[85%] sm:w-full  max-w-[600px] mx-auto mt-6 sm:mt-10  p-2 select-none">
-            <span className="flex items-center justify-center text-white tracking-wide text-base sm:text-xl uppercase font-light ml-2">
+            <span className="flex items-center justify-center text-white tracking-wide text-base sm:text-xl uppercase font-light">
               {filteredArtworks[activeIndex]?.title}
             </span>
           <p className="text-white tracking-wide text-center sm:text-xl uppercase font-light  mt-2">
