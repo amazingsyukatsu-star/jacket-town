@@ -19,7 +19,7 @@ function App() {
     client.get({ endpoint: "artworks" }).then((res) => {
       const formattedData = res.contents.map((content) => ({
         id: content.id,
-        src: `${content.image.url}?w=1200&q=80&fm=webp`,
+        src: `${content.image.url}?w=1200&q=80&fm=avif`,
         title: content.title,
         year: content.year,
         genres: content.genre || [],
